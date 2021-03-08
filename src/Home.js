@@ -14,12 +14,14 @@ function Home() {
 
                 <div className="home__row">
                     <Product 
+                        id="123"
                         title='The Lean Startup: How Constant Innovation Creates Radically Successful Businesses' 
                         price={19.99}
                         image='https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg'
                         rating={3}
                     />
                     <Product 
+                        id="141"
                         title='Kenwood kMix Stand Mixer for 
                         Baking, Stylish Kitchen Mixer 
                         with K-beater, Dough Hook and Whisk, 5 Litre 
@@ -32,12 +34,14 @@ function Home() {
 
                 <div className="home__row">
                     <Product 
+                        id="5235"
                         title='New Apple Watch Series 6 (GPS, 40mm) - Blue Aluminium Case with Deep Navy Sport Band'
                         price={399.99}
                         image='https://images-na.ssl-images-amazon.com/images/I/71HobIyTcqL._AC_SL1500_.jpg'
                         rating={4}
                     />
                     <Product 
+                        id="253"
                         title='All-new Echo (4th generation) | 
                         With premium sound, smart home hub and 
                         Alexa | Charcoal'
@@ -46,6 +50,7 @@ function Home() {
                         rating={5}
                     />
                     <Product 
+                        id="2653"
                         title='New Apple iPad Pro (12.9-inch, Wi-Fi, 256GB) - Space Grey (4th Generation)'
                         price={249.99}
                         image='https://images-na.ssl-images-amazon.com/images/I/81WhK5%2Bgf2L._AC_SL1500_.jpg'
@@ -55,6 +60,7 @@ function Home() {
 
                 <div className="home__row">
                     <Product 
+                        id="642353"
                         title='Samsung LC49RG90SSUXEN 49" Curved LED 
                         Gaming Monitor - Super Ultra Wide Dual WQHD 
                         5120 x 1440, 120Hz, Freesync, Gsync Compatible, 
