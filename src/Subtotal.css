@@ -29,3 +29,16 @@
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
+
+.subtotal > button:hover {
+  cursor: pointer;
+  background-color: #ebb325;
+}
+
+.subtotal > button:disabled,
+.subtotal > button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
