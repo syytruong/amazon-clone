@@ -47,7 +47,7 @@ function Payment() {
 
             db
                 .collection('users')
-                .doc(user?.id)
+                .doc(user?.uid)
                 .collection('orders')
                 .doc(paymentIntent.id)
                 .set({
@@ -60,11 +60,11 @@ function Payment() {
             setError(null);
             setProcessing(false);
 
+            history.replace('/orders')
+
             dispatch({
                 type: 'EMPTY_BASKET',
             })
-
-            history.replace('/orders')
         })
     };
 
