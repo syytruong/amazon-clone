@@ -55,3 +55,21 @@
   background-color: #ebb325;
   cursor: pointer;
 }
+
+.payment__guideLine {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.payment__guideLineCardSecurity {
+  padding-right: 20px;
+}
+
+.payment__priceContainer {
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 20px;
+}
